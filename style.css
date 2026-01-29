@@ -1,19 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: lightgreen;
-    color: blueviolet;
+    color: dodgerblue;
 }
 
 h1 {
-    color: navy;
+    color: salmon;
 }
 
 h2 {
-    color: red;
+    color: fuchsia;
 }
 
 main {
-    background-color: antiquewhite;
+    background-color: bisque;
     padding: 20px;
     margin: 16px;
 }
@@ -28,18 +28,36 @@ ul,ol {
 }
 
 main{
-    border: 2px solid grey;
+    border: 7px solid darkcyan;
 }
 
 header {
-    background-color: azure;
+    background-color: thistle;
     padding: 16px;
     margin: 16px;
-    border: 2px solid hotpink;
+    border: 8px solid hotpink;
 }
 
 img {
     width: 200px;
-    border: 2px solid forestgreen;
+    border: 5px solid saddlebrown;
+}
+
+.highlight {
+    background-color: white;
+    border: 6px solid navy;
+    padding: 10px;
+}
+
+a {
+    color: black; 
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+
+li {
+    margin-bottm: 8px
 }
 
