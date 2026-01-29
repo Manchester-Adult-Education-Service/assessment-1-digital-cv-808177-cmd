@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    color: blueviolet;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: red;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 16px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+ul,ol {
+    margin-top:0;margin-bottom:16px;
+}
+
+main{
+    border: 2px solid grey;
+}
+
+header {
+    background-color: azure;
+    padding: 16px;
+    margin: 16px;
+    border: 2px solid hotpink;
+}
+
+img {
+    width: 200px;
+    border: 2px solid forestgreen;
+}
+
