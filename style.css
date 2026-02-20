@@ -86,6 +86,41 @@ nev ul {
     padding: 0;
 }
 
+skills-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+skills-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: cadetblue;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.highlight {
+    background-color: antiquewhite;
+    border: 2px solid #808080;
+    padding: 10px;
+}
+
 
 
 
