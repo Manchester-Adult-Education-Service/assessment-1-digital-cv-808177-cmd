@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-    <title>Your Name – Digital CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Ikram Ali – Digital CV</title>
 </head>
 <body>
 <header>
-    <h1>Your Full Name</h1>
-    <p>
-        Write a short personal statement here. Include what you are studying,
-        what you are interested in, and what you hope to do in the future.
-    </p>
+    <h1>Ikram Ali</h1>
+    <nav>
+        <ul>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
 </header>
 
 <hr>
 
 <main>
     <h2>Profile Photo</h2>
-    <img src="optional-image-link-here.jpg" alt="Professional profile photo">
+    <div class="hero-container">
+        <img src= "dog.png"
+    alt="dog.png">
+    <p class="highlight">
+        I am student at Greenheys college,I live with my mother and have two siblings. 
+        At the moment,I'm feeling a bit down because I miss other family members,especially my dad.
+        Dedicated learner with strong family values.
+        I am a highly motivated web developer with a passion for creating clean, user friendly and solving complex coding challenges.
+    </p>
+    </div>
 
-    <hr>
+    <hr id="experience">
 
-    <h2>Work Experience</h2>
+    <h2>work Experience</h2>
     <ul>
         <li>Job Title – Company or Organisation</li>
-        <li>Voluntary Role or Project – Organisation</li>
+        <li>Voluntary Role or Project – Organisation</li> 
     </ul>
 
-    <hr>
+    <div class="hero-container">
+        
+    <hr id="education"
 
     <h2>Education</h2>
     <ol>
-        <li>Qualification – Institution</li>
-        <li>Qualification – Institution</li>
-        <li>Qualification – Institution</li>
+        <li>Level 2 – Maths</li>
+        <li>Entry 3 – English</li>
+        <li>Level 2 – Programming</li>
     </ol>
 
-    <hr>
-
+    <hr id="skills">
+    <div class="skills-layout">
+        <div class="skills-column">
+            <h3>languages</h3>
+            <ul>English</ul>
+            <ul>Amharic</ul>
+        </div>
+    <div class="column">
+        <h3>Software Tools</h3>
+        <ul>VS Code</ul>
+        <ul>GitHub</ul>
+    </div>
+</section>
     <h2>Technical Skills</h2>
     <ul>
         <li>Programming Languages
@@ -52,18 +78,15 @@
     <hr>
 
     <h2>Contact Information</h2>
-    <p>
-        View my work on 
-        <a href="https://github.com/your-username">GitHub</a>
-    </p>
-    <p>
-        Contact me by email:
-        <a href="mailto:your-email@example.com">Send Email</a>
-    </p>
+<div class="contact-bar">
+    <p>view my work on<a href="https://github.com/808177-cmd">GitHub</a></p>
+    <p>contact me by email<a href="mailto:808177@manadulted.ac.uk">Email Me</a></p>
+</div>
 </main>
-
-<footer>
-    <p>Copyright © 2026 Your Name</p>
+<p id="time"></p>
+<footer id="copyright">
+    <p>Copyright © 2026 Ikram Ali</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
