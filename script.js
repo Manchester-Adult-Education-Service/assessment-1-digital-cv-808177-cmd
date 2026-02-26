@@ -15,3 +15,9 @@ if (hour < 12) {
 }
 
 console.log("The current hour is " + hour);
+
+const personalStatement = document.querySelector('highlight')
+personalStatement.style.backgroundColor = '#bee4c1'
+
+alert("Thanks for visiting my portfolio!")
+document.querySelectorAll
