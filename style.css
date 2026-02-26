@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #a9a9a9;
-    color: #1e90ff;
+    color: #102235;
 }
 
 header {
@@ -98,7 +98,7 @@ skills-column {
 }
 
 a {
-    color: #adff2f;
+    color: #662fff;
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
