@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: darkgrey;
-    color: dodgerblue;
+    background-color: #a9a9a9;
+    color: #1e90ff;
 }
 
 header {
@@ -10,14 +10,14 @@ header {
 }
 
 header {
-    background-color:honeydew;
+    background-color:#f0fff0;
     padding: 16px;
     margin: 16px;
     border: 2px solid #808080;
     position: sticky;
     top: 0;
     z-index: 100;
-    color: fuchsia;
+    color: #ff00ff;
 
 }
 
@@ -26,8 +26,8 @@ h1 {
 }
 
 h2 {
-    color: orangered;
-    background-color: antiquewhite;
+    color: #ff4500;
+    background-color: #faebd7;
     padding: 8px;
     margin-top: 20px;
     margin-bottom: 18px;
@@ -39,7 +39,7 @@ line-height: 1.5;
 }
 
 li {
-    color: firebrick;
+    color: #b22222;
     margin-bottom: 6px;
 }
 
@@ -98,14 +98,14 @@ skills-column {
 }
 
 a {
-    color: greenyellow;
+    color: #adff2f;
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
 }
 
 a:hover {
-    color: cadetblue;
+    color: #5f9ea0;
     transform: scale(1.1);
     text-decoration: underline;
 }
@@ -116,7 +116,7 @@ footer {
 }
 
 .highlight {
-    background-color: antiquewhite;
+    background-color: #faebd7;
     border: 2px solid #808080;
     padding: 10px;
 }
