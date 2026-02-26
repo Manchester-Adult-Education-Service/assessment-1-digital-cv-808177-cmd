@@ -1,5 +1,10 @@
 const nameHeading = document.querySelector ('h1');
 const hour = new Date().getHours();
+const year = new Date().getFullYear();
+const time = new Date().getTime();
+
+document.getElementById('time').textContent = time
+document.getElementById('copyright').textContent = `Copyright © ${year} Ikram Ali`
 
 if (hour < 12) {
     nameHeading.textContent = "Good Morning, Ikram Ali";
