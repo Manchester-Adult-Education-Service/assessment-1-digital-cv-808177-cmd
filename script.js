@@ -21,3 +21,6 @@ personalStatement.style.backgroundColor = '#bee4c1'
 
 alert("Thanks for visiting my portfolio!")
 document.querySelectorAll
+querySelector
+
+document.getElementById('theme-btn').addEventListener('click', function() {document.body.style.backgroundColor});
