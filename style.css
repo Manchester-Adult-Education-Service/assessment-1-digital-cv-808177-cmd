@@ -121,6 +121,10 @@ footer {
     padding: 10px;
 }
 
+body, main, header {
+    transition: background-color 0.5s, color 0.5s;
+}
+
 
 
 

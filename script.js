@@ -39,7 +39,25 @@ allSkills.forEach(skill=> {
         skill.style.color = "#ea580c"; 
         skill.style.fontWeight = "bold";
     }
-})
+});
 
 const currentYear = new Date().getFullYear();
 document.getElementById('copyright').textContent = "coperight ©  " + currentYear + "Ikram Ali";
+
+const button = document.querySelector('button');
+const isDarkMode = document.body.classList.contains('dark-mode');
+if (isDarkMode) {
+    button.textContent = "Switch to Light mode";
+} else {
+    button.textContent = "Switch to Dark mode";
+}
+
+const userName = prompt ("Ikram");
+const greetingHeading = document.querySelector('h1');
+
+if (userName) {
+    greetingHeading.textContent = `Welcome, ${userName}. Welcome to my portfolio.`;
+}
+
+
+
