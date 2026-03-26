@@ -1,3 +1,6 @@
+const quoteBtn = document.getElementById('quote-btn');
+const quoteText = document.getElementById('quote-text');
+const quoteAuthor = document.getElementById('quote-author');
 const nameHeading = document.querySelector ('h1');
 const hour = new Date().getHours();
 const year = new Date().getFullYear();
@@ -58,6 +61,40 @@ const greetingHeading = document.querySelector('h1');
 if (userName) {
     greetingHeading.textContent = `Welcome, ${userName}. Welcome to my portfolio.`;
 }
+
+quoteBtn.addEventListener('click', function() {
+    quoteText.textContent = "Fetching new inspiration...";
+    fetch('https://dummyjson.com/quotes/random')
+    .then(response => response.json())
+    .then(data => {
+            quoteText.textContent = `"${data.quote}"`;
+            quoteAuthor.textContent = `— ${data.author}`;
+        });
+        
+});
+
+.catch(error => { 
+            quoteText.textContent = "Oops! I couldn't reach the server. Please try again later.";
+            document.body.style.cursor = "default";
+            console.error("Fetch error:", error);
+        });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
